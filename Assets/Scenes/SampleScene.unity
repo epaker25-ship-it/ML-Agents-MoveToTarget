@@ -219,9 +219,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: 44120f21dbf4c714ebc3b2a8026dea10, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 1
+  m_BehaviorType: 2
   m_BehaviorName: MoveToTarget
   TeamId: 0
   m_UseChildSensors: 1
@@ -253,7 +253,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!65 &237640541
 BoxCollider:
@@ -806,9 +806,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: 44120f21dbf4c714ebc3b2a8026dea10, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 1
+  m_BehaviorType: 2
   m_BehaviorName: MoveToTarget
   TeamId: 0
   m_UseChildSensors: 1
@@ -840,7 +840,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!65 &1592904881
 BoxCollider:
@@ -946,7 +946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2509285196832478477, guid: fd0e067cbcfc6dc40bedbd2b6ec4ec62, type: 3}
       propertyPath: m_BehaviorType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2509285196832478477, guid: fd0e067cbcfc6dc40bedbd2b6ec4ec62, type: 3}
       propertyPath: m_BrainParameters.VectorObservationSize
@@ -965,8 +965,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2980388663503788087, guid: fd0e067cbcfc6dc40bedbd2b6ec4ec62, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980388663503788087, guid: fd0e067cbcfc6dc40bedbd2b6ec4ec62, type: 3}
       propertyPath: m_IsKinematic
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407335778747694615, guid: fd0e067cbcfc6dc40bedbd2b6ec4ec62, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3995709864568739082, guid: fd0e067cbcfc6dc40bedbd2b6ec4ec62, type: 3}
       propertyPath: dashForce

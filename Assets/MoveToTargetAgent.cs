@@ -89,6 +89,7 @@ public class MoveToTargetAgent : Agent
         sensor.AddObservation(
             cooldownRemaining / dashCooldown);
 
+        
         // Observe competitors
         foreach (MoveToTargetAgent agent in allAgents)
         {
@@ -156,8 +157,8 @@ public class MoveToTargetAgent : Agent
 
         if (impact > 5f)
         {
-            AddReward(0.02f);
-            other.AddReward(-0.01f);
+            AddReward(0.002f);
+            other.AddReward(-0.001f);
         }
     }
 
